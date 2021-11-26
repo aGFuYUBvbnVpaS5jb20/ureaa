@@ -1,12 +1,12 @@
 <template>
   <v-app-bar
     app
-    color="#9146ff"
+    color="blue accent-3"
     dark
   >
     <v-app-bar-nav-icon @click="$store.state.drawer = true"></v-app-bar-nav-icon>
 
-    <v-toolbar-title>코로나 INFO</v-toolbar-title>
+    <v-toolbar-title>요소수 지도</v-toolbar-title>
 
     <template v-slot:extension>
       <v-tabs
@@ -14,10 +14,7 @@
         color="white"
         v-model="$store.state.tab"
       >
-        <v-tab>전체</v-tab>
-        <v-tab>선별진료소</v-tab>
-        <v-tab>국민안심병원</v-tab>
-        <v-tab>공적마스크 판매처</v-tab>
+        <v-tab>Map</v-tab>
       </v-tabs>
     </template>
   </v-app-bar>

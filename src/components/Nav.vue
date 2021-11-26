@@ -15,7 +15,7 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-content>
-            Copyright 2020 MomentHana. All rights reserved.
+            Copyright 2021 MomentHana. All rights reserved.
           </v-list-item-content>
         </v-list-item>
       </v-list>
