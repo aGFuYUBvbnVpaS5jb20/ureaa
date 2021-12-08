@@ -161,7 +161,7 @@ export default {
                 }
 
                 const button = `
-                <button id="btn${e.code}" class="btn btn-sm btn-${color}" onclick="document.getElementById('card${e.code}').style.display = 'block'; document.getElementById('btn${e.code}').style.display = 'none';">${e.inventory}개</button>
+                <button id="btn${e.code}" class="btn btn-sm btn-${color}" onclick="document.getElementById('card${e.code}').style.display = 'block'; document.getElementById('btn${e.code}').style.display = 'none';">${e.inventory}L</button>
               `;
 
                 const card = `
@@ -181,7 +181,7 @@ export default {
                     }</small>
                     <h5 class="card-title text-dark"><button class="btn btn-sm btn-${color}">${
                   e.inventory
-                }개</button> ${e.name}</h5>
+                }L</button> ${e.name}</h5>
                     <h6 class="card-text text-dark" style="white-space: normal;">${
                       e.addr
                     }</h6>
